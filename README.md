@@ -1,9 +1,10 @@
 # Arduino Bluetooth Robot Car
 
 This is a project that I have created as an IoT Project for my University.
-
-<img src="/assets/images/image1.png" height=250px alt="top-view-of-car">
-<img src="/assets/images/image2.png" height=250px alt="side-view-of-car">
+<p align="center">
+<img src="/assets/images/image2.png" width=250px alt="side-view-of-car"/>
+<img src="/assets/images/image1.png" width=250px alt="top-view-of-car"/>
+</p>
 
 ## Introduction
 
