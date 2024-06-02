@@ -1,8 +1,9 @@
 # Arduino Bluetooth Robot Car
 
 This is a project that I have created as an IoT Project for my University.
-![Top-view of the bluetooth car](/assets/images/image1.png)
-![Side-view of the bluetooth car](/assets/images/image2.png)
+
+<img src="/assets/images/image1.png" height=250px alt="top-view-of-car">
+<img src="/assets/images/image2.png" height=250px alt="side-view-of-car">
 
 ## Introduction
 
@@ -22,7 +23,7 @@ This is a project that I have created as an IoT Project for my University.
 
 ## Circuit Diagram
 
-![Circuit Diagram](/assets/images/circuit_diagram.png)
+<img src="/assets/images/circuit_diagram.png" alt="circuit-diagram">
 
 ## Working
 
@@ -35,9 +36,10 @@ This is a project that I have created as an IoT Project for my University.
 - If the Arduino receives the '0' character it commands the Motor Driver to stop running the motors.
 
 ## Code
- > __Note:__ This code is already available in the [*IoT_Project.ino*](/IoT_Project.ino) file.
 
- Here is the arduino code to receive the characters sent by the mobile application to the Bluetooth Module:
+> **Note:** This code is already available in the [_IoT_Project.ino_](/IoT_Project.ino) file.
+
+Here is the arduino code to receive the characters sent by the mobile application to the Bluetooth Module:
 
 ```
 #include <AFMotor.h>
@@ -203,11 +205,11 @@ void stop() {
   motor4.run(RELEASE);
 }
 ```
+
 ## Conclusion
 
- - Our project demonstrates the integration of Arduino, motor control, and Bluetooth technology in a practical application.
- - Through hands-on experience, we've gained proficiency in programming fundamentals and hardware interfacing.
- - This project enhances our understanding of electronics and robotics, particularly in the context of real-world applications.
- - Looking ahead, we're eager to apply these skills to future projects, leveraging our knowledge for further innovation.
- - Overall, our Bluetooth-controlled car project signifies our commitment to learning and exploring new frontiers in technology.
- 
+- Our project demonstrates the integration of Arduino, motor control, and Bluetooth technology in a practical application.
+- Through hands-on experience, we've gained proficiency in programming fundamentals and hardware interfacing.
+- This project enhances our understanding of electronics and robotics, particularly in the context of real-world applications.
+- Looking ahead, we're eager to apply these skills to future projects, leveraging our knowledge for further innovation.
+- Overall, our Bluetooth-controlled car project signifies our commitment to learning and exploring new frontiers in technology.
